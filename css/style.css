@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap');
+
+body {
+    background-color: rgb(43, 180, 235);
+    font-family: "Jaldi", sans-serif;
+}
+header {
+    background-color: blue;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+nav a {
+    text-decoration: none;
+    color:white;
+}
+a:hover {
+    text-decoration: underline;
+    color: rgb(0, 164, 230);
+}
+nav img {
+    width: 150px;
+}
+.pie {
+    background-color: rgb(43, 180, 235);
+
+}
+h1 {
+    text-align: center;
+}
