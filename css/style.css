@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap');
 
 body {
-    background-color: rgb(43, 180, 235);
+    background-color: rgb(255, 255, 255);
     font-family: "Jaldi", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
 header {
     background-color: blue;
@@ -25,9 +29,72 @@ nav img {
     width: 150px;
 }
 .pie {
-    background-color: rgb(43, 180, 235);
-
+    background-color: blue;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    margin-top: auto;   
 }
 h1 {
     text-align: center;
+}
+button {
+    border: none;
+    border-radius: 30px;
+    background-color: blue ;
+    padding: 10px;
+    position: absolute;
+    right: 600;
+}
+button a {
+    text-decoration: none;
+    text-decoration: underline;
+    color: white;
+}
+p {
+    font-size: 20px;
+}
+h2 {
+    text-align: center;
+}
+.beneficios {
+    overflow: auto;
+    margin-bottom: 30px;
+}
+.beneficios img {
+    width: 225px;
+    float: left;
+    margin-right: 30px;
+}
+.card{
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px #c24b4b;
+}
+.card img{
+    width: 100%;
+}
+.cardContent{
+    padding: 15px;
+}
+
+.card h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.card h2{
+    font-size: 15px;
+}
+.card:hover{
+    background-color: rgb(62, 143, 167);
+    transform: scale(1.05);
+}
+.tarjeta {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
